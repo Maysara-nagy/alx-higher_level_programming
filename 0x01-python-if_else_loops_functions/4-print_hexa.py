@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 for i in range(99):
-    print("{0} = 0x{0}".format(i))
+    print("{} = 0x{}".format(i, hex(i)))
