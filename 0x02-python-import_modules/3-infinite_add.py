@@ -8,5 +8,5 @@ if __name__ == "__main__":
         print("{}".format(num))
     else:
         for i in range(num):
-            total += sys.argv[i + 1]
+            total += int(sys.argv[i + 1])
         print("{}".format(total))
