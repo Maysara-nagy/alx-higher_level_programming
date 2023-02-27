@@ -5,4 +5,5 @@ def divisible_by_2(my_list=[]):
             return True
         else:
             return False
-    return new_list = my_list.copy()
+    new_list = my_list.copy()
+    return new_list
