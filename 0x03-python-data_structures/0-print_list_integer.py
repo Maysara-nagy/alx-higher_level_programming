@@ -2,5 +2,6 @@
 #0. Print a list of integers
 
 def print_list_integer(my_list=[]):
+	"""lol"""
     for i in my_list:
         print("{:d}".format(i))
