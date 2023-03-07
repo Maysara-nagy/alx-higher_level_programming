@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 def safe_print_division(a, b):
     try:
@@ -7,3 +7,4 @@ def safe_print_division(a, b):
         sum = None
     finally:
         print("Inside result: {}".format(sum))
+        return sum
