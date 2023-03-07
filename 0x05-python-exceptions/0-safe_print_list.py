@@ -5,7 +5,7 @@ def safe_print_list(my_list=[], x=0):
     sum = 0
     try:
         for i in range(x):
-            print(my_list[x], sep="")
+            print(my_list[i], sep="")
             sum += 1
         return sum
     except:
