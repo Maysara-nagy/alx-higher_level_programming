@@ -2,7 +2,7 @@
 # Technical interview preparation:
 
 def roman_to_int(roman_string):
-    if roman_string not None or type(roman_string) == str:
+    if roman_string is not None or type(roman_string) == str:
         roman = list(roman_string)
         sum = 0
         for i in roman:
