@@ -19,4 +19,3 @@ class Square:
         elif size < 0:
             raise TypeError("size must be >= 0")
         self.__size = size
-        
