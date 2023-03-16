@@ -1,0 +1,3 @@
+-- 9. Cities by States
+SELECT cities.id, cities.name, states.name FROM cities
+INNER JOIN states ON cities.id = states.id ;
