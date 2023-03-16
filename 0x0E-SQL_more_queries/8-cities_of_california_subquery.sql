@@ -1,2 +1,5 @@
 -- 8. Cities of California
-SELECT * FROM hbtn_0d_usa.cities WHERE name = California ORDER BY cities.id;
+SELECT id, name FROM hbtn_0d_usa.cities WHERE state_id IN
+(
+  SELECT id FROM states WHERE name = California  
+) ORDER BY cities.id;
