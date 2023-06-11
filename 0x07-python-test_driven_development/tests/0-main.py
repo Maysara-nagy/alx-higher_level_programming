@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-import sys
-sys.path.insert(1, 'C:/Users/Maisara/Desktop/alx-higher_level_programming/0x07-python-test_driven_development')
 add_integer = __import__('0-add_integer').add_integer
 
 print(add_integer(1, 2))

@@ -1,15 +1,10 @@
 #!/usr/bin/python3
-
 def weight_average(my_list=[]):
-    if my_list is not None:
-        sum = 0
-        num = 0
-        for r, c in my_list:
-            sum += r*c
-            num += c
-        if sum == 0:
-            return 0
-        else:
-            return (sum / num)
-    else:
-        return 0
+    if my_list == [] or my_list is None:
+        return (0)
+    res = 0
+    res2 = 0
+    for x, y in my_list:
+        res += x * y
+        res2 += y
+    return (res / res2)

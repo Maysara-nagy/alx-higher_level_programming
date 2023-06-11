@@ -1,1 +1,1 @@
-this is my 0x04-python-more_data_structures alx-africa project
+This repository contains more data structures

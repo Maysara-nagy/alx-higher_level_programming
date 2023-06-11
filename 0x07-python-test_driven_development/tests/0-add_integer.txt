@@ -12,8 +12,6 @@ that value is equivalent to using the ``+`` operator.
 
 ::
 
-    >>> import sys
-    >>> sys.path.insert(1, 'C:/Users/Maisara/Desktop/alx-higher_level_programming/0x07-python-test_driven_development')
     >>> add_integer = __import__('0-add_integer').add_integer
     >>> add_integer(2, 3)
     5
@@ -118,7 +116,7 @@ And again with NaN numbers.
     Traceback (most recent call last):
     ValueError: cannot convert float NaN to integer
 
-
+::
 
     >>> add_integer(2, float('nan'))
     Traceback (most recent call last):

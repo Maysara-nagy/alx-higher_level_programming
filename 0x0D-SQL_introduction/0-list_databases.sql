@@ -1,2 +1,2 @@
--- first comment for 0. List databases
+-- script for lists all databases in MySQL server
 SHOW DATABASES;

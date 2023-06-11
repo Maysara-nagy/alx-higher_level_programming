@@ -1,1 +1,1 @@
-my python-if-else-loops-functions directory for alx-africa
+This directory contains if/else conditional codes
