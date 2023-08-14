@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 // Write a script that prints a message depending of the number of arguments passed:
 
 const args1 = process.argv.length;
