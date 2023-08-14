@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 // 6. Loop to languages
 
 const myString1 = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
