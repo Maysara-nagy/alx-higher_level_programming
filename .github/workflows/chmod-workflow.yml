@@ -1,6 +1,6 @@
 name: Change File Permissions
 
-on: 
+on:
   push:
     branches:
       - main
@@ -26,9 +26,10 @@ jobs:
         git config --global user.name "Maysara-nagy"
         git config --global user.email "maysara.nagy@gmail.com"
         git add .
-        git commit -m "Set executable bit for all files"
+        git commit -m "Set executable bit for all files" || echo "No changes to commit"
 
-    - name: Push changesa
-      uses: ad-m/github-push-action@v0.6.0
-      with:
-        github_token: ${{ secrets.A7A }}
+    - name: Push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.A7A }}
+      run: |
+        git push origin HEAD:${{ github.ref }}
