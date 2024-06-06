@@ -31,4 +31,4 @@ jobs:
     - name: Push changesa
       uses: ad-m/github-push-action@v0.6.0
       with:
-        github_token: ${{ secrets.a7a }}
+        github_token: ${{ secrets.A7A }}
