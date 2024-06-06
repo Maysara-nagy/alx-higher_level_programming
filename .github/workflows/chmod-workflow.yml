@@ -23,8 +23,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.name "maysara.nagy@gmail.com"
-        git config --global user.email "Maysara-nagy"
+        git config --global user.name "Maysara-nagy"
+        git config --global user.email "maysara.nagy@gmail.com"
         git add .
         git commit -m "Set executable bit for all files"
 
