@@ -20,14 +20,13 @@ ___
 * What happens when you type google.com in your browser (Application level)
 ***
 ### Tasks
-- 0. cURL body size
-- 1. cURL to the end
-- 2. cURL Method
-- 3. cURL only methods
-- 4. cURL headers
-- 5. cURL POST parameters
-- 6. Find a peak
-- 7. Only status code
-- 8. cURL a JSON file
-- 9. Catch me if you can!
-
+- [0. cURL body size](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/0-body_size.sh)
+- [1. cURL to the end](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/1-body.sh)
+- [2. cURL Method](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/2-delete.sh)
+- [3. cURL only methods](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/3-methods.sh)
+- [4. cURL headers](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/4-header.sh)
+- [5. cURL POST parameters](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/5-post_params.sh)
+- [6. Find a peak](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/6-peak.py)
+- [7. Only status code](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/100-status_code.sh)
+- [8. cURL a JSON file](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/101-post_json.sh)
+- [9. Catch me if you can!](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x10-python-network_0/102-catch_me.sh)
