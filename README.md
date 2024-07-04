@@ -7,7 +7,3 @@ A high-level language is any programming language that enables development of a 
 
 A high-level language has a higher level of abstraction from the computer, and focuses more on the programming logic rather than the underlying hardware components such as memory addressing and register utilization.
 
-| Projects | Description |
-| -------- | ----------- | 
-| [0x00-python-hello_world](0x00-python-hello_world) | All about introduction to python. A bit about Technical interview prep |
-.
