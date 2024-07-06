@@ -10,7 +10,7 @@ if __name__ == "__main__":
     ownerName = argv[2]
 
     r = requests.get('https://api.github.com/repos/{}/{}/commits'
-                     .format(repoName, ownerName))
+                     .format(ownerName, repoName))
     try:
         for index in range(10):
             print("{}: {}".format(
