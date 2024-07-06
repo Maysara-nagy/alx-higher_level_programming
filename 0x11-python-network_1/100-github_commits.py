@@ -11,7 +11,10 @@ if __name__ == "__main__":
 
     r = requests.get('https://api.github.com/repos/{}/{}/commits'
                      .format(repoName, ownerName))
-    for index in range(10):
-        print("{}: {}".format(
-            r.json()[index].get("sha"),
-            r.json()[index].get("commit").get("author").get("name")))
+    try:
+        for index in range(10):
+            print("{}: {}".format(
+                r.json()[index].get("sha"),
+                r.json()[index].get("commit").get("author").get("name")))
+    except IndexError:
+        pass
