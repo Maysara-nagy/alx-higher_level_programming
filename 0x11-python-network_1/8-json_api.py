@@ -11,7 +11,8 @@ if __name__ == "__main__":
     else:
         letter = argv[1]
     try:
-        r = requests.post('http://0.0.0.0:5000/search_user', data={"q": letter})
+        r = requests.post('http://0.0.0.0:5000/search_user',
+                          data={"q": letter})
         if(r.json()):
             print("[{}] {}".format(r.json().get("id"), r.json().get("name")))
         else:
