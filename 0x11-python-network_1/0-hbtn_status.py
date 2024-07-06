@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''A Bash Script that fetches https://alx-intranet.hbtn.io/status.'''
+"""A Bash Script that fetches https://alx-intranet.hbtn.io/status."""
 from urllib.request import Request, urlopen
 
 if __name__ == "__main__":
