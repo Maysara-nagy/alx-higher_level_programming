@@ -23,5 +23,4 @@ ___
 | [7. Error code #1](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1/7-error_code.py) | a Python script that takes in a URL, sends a request to the URL and displays the body of the response. |
 | [8. Search API](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1/8-json_api.py) | a Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter. |
 | [9. My GitHub!](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1/10-my_github.py) | a Python script that takes your GitHub credentials (username and password) and uses the GitHub API to display your id |
-| [10. Time for an interview!
-](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1/100-github_commits.py) | a Python script that takes 2 arguments in order to solve this challenge. |
+| [10. Time for an interview!](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1/100-github_commits.py) | a Python script that takes 2 arguments in order to solve this challenge. |
