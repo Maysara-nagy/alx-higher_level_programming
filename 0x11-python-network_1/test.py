@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-import urllib.request
+from urllib.request import *
 
 
-if __name__ == "__main__":
-    req = urllib.request.Request("http://python.org/")
-    with urllib.request.urlopen(req) as response:
-        html = response.read()
-        print(response.decode('utf-8'))
+
+req = Request('http://www.python.org/fish.html')
+try:
+    urlopen(req)
+except HTTPError as e:
+    print(e.code)
+    print(e.read())  
