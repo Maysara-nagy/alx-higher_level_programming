@@ -31,5 +31,5 @@ A high-level language has a higher level of abstraction from the computer, and f
 | [0x0E-SQL_more_queries](https://github.com/Maysara-nagy/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries) | Projects and tasks continuing with more advanced SQL queries. |
 | [0x0F-python-object_relational_mapping](https://github.com/Maysara-nagy/alx-higher_level_programming/tree/main/0x0F-python-object_relational_mapping) | Projects and tasks focusing on object-relational mapping (ORM) in Python. |
 | [0x10-python-network_0](https://github.com/Maysara-nagy/alx-higher_level_programming/tree/main/0x10-python-network_0) | Projects and tasks involving network operations and HTTP requests in Python. |
-| [0x11-python-network_1](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/master/0x11-python-network_1) | Projects and tasks involving network operations and HTTP requests in Python Version 2. |
+| [0x11-python-network_1](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/0x11-python-network_1) | Projects and tasks involving network operations and HTTP requests in Python Version 2. |
 | [README.md](https://github.com/Maysara-nagy/alx-higher_level_programming/blob/main/README.md) | The README file for this repository. |
